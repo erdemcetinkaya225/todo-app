@@ -1,0 +1,43 @@
+
+ul{
+    margin-top: 20px;
+}
+ul>li{
+height: 80px;
+background-color: oldlace;
+text-align: left;
+margin: auto;
+color: darkblue;
+margin-bottom: 10px;
+list-style: none;
+
+}
+
+
+.pragh
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.deleteButton
+{
+
+    float: right;
+    padding: 1%;
+    height: 50px;
+    width: 50px;
+}
+
+ul>li>:hover
+{
+    background-color: gainsboro;
+    height: 100%;
+}
+
+.checked {
+    text-decoration: line-through;
+  }
+  
