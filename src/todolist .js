@@ -8,8 +8,8 @@ function ItemList(props)
           { props.ItemList.map((todo)=>{
             return(
                 <li>
-                    <div>
-                    <div className='pragh' onClick={()=>props.checkedStatus(todo.id)}>
+                    <div className='pragh' >
+                    <div  onClick={()=>props.checkedStatus(todo.id)}>
                     <p className={todo.isChecked}>{todo.value} </p>
                     
                     </div>
